@@ -1,0 +1,38 @@
+@media(max-width:768px) {
+
+    .card {
+
+        padding: 30px;
+
+    }
+
+}
+
+@media(max-width:480px) {
+
+    .card {
+
+        padding: 25px;
+
+    }
+
+    .login-card {
+
+        max-width: 100%;
+
+    }
+
+    .register-card {
+
+        max-width: 100%;
+
+    }
+
+    .login-header h1,
+    .register-header h1 {
+
+        font-size: 1.7rem;
+
+    }
+
+}

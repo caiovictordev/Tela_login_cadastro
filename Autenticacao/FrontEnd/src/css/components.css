@@ -1,0 +1,219 @@
+/* ==========================================================
+   CARD
+========================================================== */
+
+.card {
+
+    background: var(--card-color);
+
+    border-radius: var(--card-radius);
+
+    padding: 40px;
+
+    box-shadow: var(--shadow);
+
+}
+
+/* ==========================================================
+   BOTÕES
+========================================================== */
+
+.btn {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    width: 100%;
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: var(--border-radius);
+
+    background: var(--primary-color);
+
+    color: #FFF;
+
+    font-size: 1rem;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition:
+        background .3s ease,
+        transform .15s ease;
+
+}
+
+.btn:hover {
+
+    background: var(--primary-dark);
+
+}
+
+.btn:active {
+
+    transform: scale(.98);
+
+}
+
+.btn:disabled {
+
+    opacity: .7;
+
+    cursor: not-allowed;
+
+}
+
+/* ==========================================================
+   INPUT GROUP
+========================================================== */
+
+.input-group {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 8px;
+
+}
+
+.input-group label {
+
+    font-size: .95rem;
+
+    font-weight: 500;
+
+}
+
+/* ==========================================================
+   INPUT BOX
+========================================================== */
+
+.input-box {
+
+    display: flex;
+
+    align-items: center;
+
+    background: var(--card-color);
+
+    border: 1px solid var(--border-color);
+
+    border-radius: var(--border-radius);
+
+    overflow: hidden;
+
+    transition:
+        border-color .3s ease,
+        box-shadow .3s ease;
+
+}
+
+.input-box:focus-within {
+
+    border-color: var(--primary-color);
+
+    box-shadow: var(--focus-shadow);
+
+}
+
+/* ==========================================================
+   ÍCONES
+========================================================== */
+
+.input-box i {
+
+    padding: 0 15px;
+
+    color: var(--icon-color);
+
+    font-size: 1.05rem;
+
+}
+
+/* ==========================================================
+   INPUT
+========================================================== */
+
+.input-box input {
+
+    flex: 1;
+
+    border: none;
+
+    outline: none;
+
+    background: transparent;
+
+    padding: 14px 0;
+
+    font-size: 1rem;
+
+    color: var(--text-color);
+
+}
+
+.input-box input::placeholder {
+
+    color: var(--text-light);
+
+}
+
+/* ==========================================================
+   BOTÃO MOSTRAR SENHA
+========================================================== */
+
+.show-password {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 14px 16px;
+
+    border: none;
+
+    background: transparent;
+
+    color: var(--icon-color);
+
+    cursor: pointer;
+
+    transition:
+        background .3s ease,
+        color .3s ease;
+
+}
+
+.show-password:hover {
+
+    background: var(--hover-color);
+
+    color: var(--primary-color);
+
+}
+
+/* ==========================================================
+   MENSAGENS DE ERRO
+========================================================== */
+
+.error-message {
+
+    min-height: 20px;
+
+    margin-top: 4px;
+
+    color: var(--error-color);
+
+    font-size: .85rem;
+
+}

@@ -1,0 +1,57 @@
+
+/* Lista de usuários */
+#lista-usuarios {
+    width: 100%;
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+
+/* Título da lista */
+#lista-usuarios h2 {
+    margin-bottom: 20px;
+}
+
+
+/* Cada usuário */
+.usuario-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 15px 20px;
+    margin-bottom: 10px;
+
+    border: 1px solid #ddd;
+    border-radius: 8px;
+
+    background-color: #fff;
+}
+
+
+/* Nome e email */
+.usuario-item span {
+    font-size: 16px;
+}
+
+
+/* Botão excluir */
+.botao-excluir {
+    padding: 8px 15px;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    background-color: #dc3545;
+    color: #fff;
+
+    font-size: 14px;
+}
+
+
+/* Efeito ao passar o mouse */
+.botao-excluir:hover {
+    background-color: #b02a37;
+}

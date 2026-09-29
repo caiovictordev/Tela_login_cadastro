@@ -1,0 +1,148 @@
+/* ==========================================================
+   GOOGLE FONTS
+========================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* ==========================================================
+   VARIÁVEIS
+========================================================== */
+
+:root {
+
+    /* Cores principais */
+    --primary-color: #2563EB;
+    --primary-dark: #1E40AF;
+
+    /* Backgrounds */
+    --background-color: #F3F4F6;
+    --card-color: #FFFFFF;
+    --hover-color: #F3F4F6;
+
+    /* Textos */
+    --text-color: #1F2937;
+    --text-light: #6B7280;
+
+    /* Componentes */
+    --border-color: #D1D5DB;
+    --icon-color: #9CA3AF;
+
+    /* Feedback */
+    --error-color: #DC2626;
+    --success-color: #16A34A;
+
+    /* Bordas */
+    --border-radius: 8px;
+    --card-radius: 15px;
+
+    /* Sombras */
+    --shadow: 0 15px 35px rgba(0, 0, 0, .08);
+    --focus-shadow: 0 0 8px rgba(37, 99, 235, .25);
+
+}
+
+/* ==========================================================
+   RESET
+========================================================== */
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* ==========================================================
+   HTML
+========================================================== */
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+/* ==========================================================
+   BODY
+========================================================== */
+
+body {
+
+    min-height: 100vh;
+
+    font-family: 'Poppins', sans-serif;
+
+    background: linear-gradient(135deg, #EFF6FF, #DBEAFE);
+
+    color: var(--text-color);
+
+    -webkit-font-smoothing: antialiased;
+
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+/* ==========================================================
+   LINKS
+========================================================== */
+
+a {
+
+    color: var(--primary-color);
+
+    text-decoration: none;
+
+    transition: color .3s ease;
+
+}
+
+a:hover {
+
+    color: var(--primary-dark);
+
+    text-decoration: underline;
+
+}
+
+/* ==========================================================
+   LISTAS
+========================================================== */
+
+ul {
+
+    list-style: none;
+
+}
+
+/* ==========================================================
+   IMAGENS
+========================================================== */
+
+img {
+
+    display: block;
+
+    max-width: 100%;
+
+}
+
+/* ==========================================================
+   BOTÕES
+========================================================== */
+
+button {
+
+    font-family: inherit;
+
+}
+
+/* ==========================================================
+   INPUTS
+========================================================== */
+
+input {
+
+    font-family: inherit;
+
+}

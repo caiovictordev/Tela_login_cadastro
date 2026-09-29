@@ -1,0 +1,128 @@
+/* ==========================================================
+   MAIN
+========================================================== */
+
+main {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    min-height: 100vh;
+
+    padding: 20px;
+
+}
+
+/* ==========================================================
+   LOGIN CARD
+========================================================== */
+
+.login-card {
+    width: 100%;
+    max-width: 430px;
+}
+
+/* ==========================================================
+   LOGIN HEADER
+========================================================== */
+
+.login-header {
+
+    margin-bottom: 32px;
+
+    text-align: center;
+
+}
+
+.login-header h1 {
+
+    margin-bottom: 10px;
+
+    color: var(--text-color);
+
+    font-size: 2rem;
+
+    font-weight: 700;
+
+}
+
+.login-header p {
+
+    color: var(--text-light);
+
+    font-size: .95rem;
+
+    line-height: 1.5;
+
+}
+
+/* ==========================================================
+   LOGIN FORM
+========================================================== */
+
+
+.login-card form button[type="submit"] {
+    width: 150px;
+    padding: 7px;
+}
+
+/* ==========================================================
+   LINKS
+========================================================== */
+
+.login-links {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-top: 8px;
+
+    font-size: .9rem;
+
+}
+
+.login-links a {
+
+    font-weight: 500;
+
+}
+
+/* ==========================================================
+   BOTÃO
+========================================================== */
+
+.login-form .btn {
+
+    margin-top: 8px;
+
+}
+
+/* ==========================================================
+   RODAPÉ
+========================================================== */
+
+.login-footer {
+
+    margin-top: 30px;
+
+    text-align: center;
+
+    color: var(--text-light);
+
+    font-size: .9rem;
+
+    line-height: 1.5;
+
+}
+
+.login-footer a {
+
+    font-weight: 600;
+
+}

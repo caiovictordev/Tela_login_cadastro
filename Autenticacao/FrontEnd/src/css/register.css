@@ -1,0 +1,111 @@
+/* ==========================================================
+   MAIN
+========================================================== */
+
+main {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    min-height: 100vh;
+
+    padding: 20px;
+
+}
+
+/* ==========================================================
+   REGISTER CARD
+========================================================== */
+
+.register-card {
+
+    width: 100%;
+
+    max-width: 500px;
+
+}
+
+/* ==========================================================
+   REGISTER HEADER
+========================================================== */
+
+.register-header {
+
+    margin-bottom: 32px;
+
+    text-align: center;
+
+}
+
+.register-header h1 {
+
+    margin-bottom: 10px;
+
+    color: var(--text-color);
+
+    font-size: 2rem;
+
+    font-weight: 700;
+
+}
+
+.register-header p {
+
+    color: var(--text-light);
+
+    font-size: .95rem;
+
+    line-height: 1.5;
+
+}
+
+/* ==========================================================
+   FORMULÁRIO
+========================================================== */
+
+.register-card form {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 22px;
+
+}
+
+/* ==========================================================
+   BOTÃO
+========================================================== */
+
+.register-card .btn {
+
+    margin-top: 8px;
+
+}
+
+/* ==========================================================
+   RODAPÉ
+========================================================== */
+
+.register-footer {
+
+    margin-top: 30px;
+
+    text-align: center;
+
+    color: var(--text-light);
+
+    font-size: .9rem;
+
+    line-height: 1.5;
+
+}
+
+.register-footer a {
+
+    font-weight: 600;
+
+}
