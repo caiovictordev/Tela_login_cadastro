@@ -63,7 +63,7 @@ async function updateImage(id, imagem) {
             UPDATE users SET imagem = ? WHERE id = ?
         `;
 
-        const [dados] = await conect.query(sql, [id, imagem])
+        const [dados] = await conect.query(sql, [imagem, id])
         return dados
         
     } catch (error) {
